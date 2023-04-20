@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #020620;
+    display: flex;
+    justify-content: center;
+}
+.child-div{
+    margin-top: 3.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+
+}
+.heading{
+  margin: 1rem auto;
+  font-size: 1.3rem;
+}
+input {
+  appearance: none;
+  border: none;
+  background-color: #eee;
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+  padding: .4rem 1rem;
+  color: black;
+  font-size: 1rem;
+  margin: 1rem auto;
+  border-radius: 3px;
+}
+.add-items{
+  position: relative;
+}
+.add-btn {
+  color: black;
+  position: absolute;
+  top: 36%;
+  right: 3%;
+  cursor: pointer;
+  border: none;
+}
+.each-item {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.5rem 1rem;
+  height: 2rem;
+  background-color: forestgreen;
+  margin: .5rem auto;
+  position: relative;
+  border-radius: 3px;
+  text-align: left;
+}
+.each-item:hover {
+  background-color: blue;
+}
+.delete-btn {
+  color: white;
+  position: absolute;
+  top: 29%;
+  right: 3%;
+  cursor: pointer;
+}
+.delete-btn:hover{
+  color: crimson;
+}
+
+.removeAll-btn{ 
+    padding: .3rem 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    outline: none;
+    display: block;
+    margin: auto;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 6px;
+}
+.removeAll-btn:hover{
+    background-color:#007EEE;
+}
