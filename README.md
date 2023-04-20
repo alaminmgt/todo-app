@@ -1,2 +1,2 @@
 # todo-app
-Todo app with react -redux (tc)
+Todo app with react -redux ((tc))
